@@ -2,7 +2,7 @@
 Die in ```src/lib/icons/utils/icons.json/``` gespeicherten svgs sind größtenteils Zondicons. Eine Übersicht der verfügbaren Zondicons findet sich [hier](https://www.zondicons.com/icons.html). Zondicons sind frei nutzbar im Rahmen der [MIT-Lizenz](https://github.com/dukestreetstudio/zondicons/blob/master/LICENSE).
 
 ## Erzeugung von Komponenten mit iconGen.py
-Im Verzeichnis ```src/lib/icons/``` findet sich das Skript ```iconGen.py```. Damit lassen sich aus einem Verzeichnis mit ```.svg```-Dateien Svelte Komponenten erzeugen.
+Oben findet sich das Skript ```iconGen.py```. Damit lassen sich aus einem Verzeichnis mit ```.svg```-Dateien Svelte Komponenten erzeugen.
 Benutzung:  
 ```console
 python iconGen.py <svg directory> <destination directory> <"append" (optional)>
