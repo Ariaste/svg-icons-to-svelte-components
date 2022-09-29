@@ -1,5 +1,5 @@
 # SVG Icons to Svelte Components - Generator
-Die in ```src/lib/icons/utils/icons.json/``` gespeicherten svgs sind größtenteils Zondicons. Eine Übersicht der verfügbaren Zondicons findet sich [hier](https://www.zondicons.com/icons.html). Zondicons sind frei nutzbar im Rahmen der [MIT-Lizenz](https://github.com/dukestreetstudio/zondicons/blob/master/LICENSE).
+Die in ```example_of_generated_icons/lib/icons/utils/icons.json/``` gespeicherten svgs sind größtenteils Zondicons. Eine Übersicht der verfügbaren Zondicons findet sich [hier](https://www.zondicons.com/icons.html). Zondicons sind frei nutzbar im Rahmen der [MIT-Lizenz](https://github.com/dukestreetstudio/zondicons/blob/master/LICENSE).
 
 ## Erzeugung von Komponenten mit iconGen.py
 Oben findet sich das Skript ```iconGen.py```. Damit lassen sich aus einem Verzeichnis mit ```.svg```-Dateien Svelte Komponenten erzeugen.
