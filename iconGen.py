@@ -143,7 +143,7 @@ rotationSpeed: speed of rotation in degrees per second, positive value clockwise
         viewBox=\"0 0 20 20\" 
         class=\"{className}\" 
         style=\"{style}; transform: rotate({direction}deg);\"
-        on:mouseover={() => {style = "fill: \" + hover}}
+        on:mouseover={() => {style = "fill: \" + (hover == "" ? color : hover)}}
         on:mouseout={() => {style = "fill: \" + color}}
     >
         {@html icons[name].content}
